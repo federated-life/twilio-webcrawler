@@ -1,4 +1,15 @@
-As specified in the repository URL
-A webcrawler to search twilio.com & all pages linked to on twilio.com
-on the twilio domain for the word 'shenanigans', case insensitive.
-by Jeffrey Sweeney, 4/4/2012
+======================================================
+Description: 	A webcrawler to search twilio.com & all pages linked to on twilio.com
+					on the twilio domain for the word 'shenanigans', case insensitive.
+Author: Jeffrey Sweeney
+Date: 4/4/2012
+======================================================
+
+System Dependencies:
+	perl runtime
+	WWW::Mechanize library ($> cpanm WWW::Mechanize)
+
+Usage:
+	chmod +x shenanigans.pl
+	shenanigans.pl
+	
